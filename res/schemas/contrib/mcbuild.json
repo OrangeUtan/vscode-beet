@@ -1,0 +1,14 @@
+{
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"type": "object",
+	"properties": {
+		"source": {
+			"type": "string",
+			"description": "The source directory of the project. Defaults to './mcbuild'"
+		},
+		"force_rebuild": {
+			"type": "boolean",
+			"description": "Force the plugin to re-run MC-Build when beet updates the project, even if the source has not been changed."
+		}
+	}
+}
