@@ -110,6 +110,10 @@
             "description": "Adds Lantern Load runtime dependencies"
           },
           {
+            "const": "beet.contrib.mcbuild",
+            "description": "Builds a MC-Build project"
+          },
+          {
             "const": "beet.contrib.minify_function",
             "description": "Minifies function files"
           },
@@ -205,6 +209,10 @@
         "lantern_load": {
           "description": "lantern_load plugin settings",
           "$ref": "contrib/lantern_load.json"
+        },
+        "mcbuild": {
+          "description": "mcbuild plugin settings",
+          "$ref": "contrib/mcbuild.json"
         },
         "render": {
           "description": "render plugin settings",
